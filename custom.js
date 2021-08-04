@@ -35,11 +35,11 @@ operators.forEach( oper => {
     oper.addEventListener('click', (e)=> {
         if (!dis2_num) result;
         dot_btn = false;
-        if (!oper_btn) {
-             oper_btn = true;
-         } else if (oper_btn){
-             return;
-        }
+        //if (!oper_btn) {
+        //     oper_btn = true;
+         //} else if (oper_btn){
+       //      return;
+        //}
 
         const operation = e.target.innerText;
 
