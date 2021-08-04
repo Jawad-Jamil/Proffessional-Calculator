@@ -12,7 +12,6 @@ let dis2_num = '';
 let result = null;
 let last_oper = '';
 let dot_btn = false;
-let oper_btn = false;
 
 number_cons.forEach( number => {
 
