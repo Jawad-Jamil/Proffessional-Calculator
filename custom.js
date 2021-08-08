@@ -69,6 +69,7 @@ function math_operation(){
         result = parseFloat(result) / parseFloat(dis2_num)
     } else if (last_oper == '%') {
        dis2_num = parseFloat(dis2_num)/100
+       return;
     }
 }
 
